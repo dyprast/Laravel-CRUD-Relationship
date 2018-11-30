@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Nov 30, 2018 at 08:09 PM
+-- Generation Time: Nov 30, 2018 at 10:29 PM
 -- Server version: 5.7.24-0ubuntu0.18.04.1
 -- PHP Version: 7.2.10-0ubuntu0.18.04.1
 
@@ -54,7 +54,12 @@ INSERT INTO `barangs` (`id`, `gudang_id`, `nama`, `berat`, `created_at`, `update
 (16, 12, '20 Box AQUA', 30, '2018-11-29 17:16:18', '2018-11-29 17:16:18'),
 (17, 12, '10 Box Baygon', 10, '2018-11-29 17:16:36', '2018-11-29 17:16:36'),
 (18, 13, '40 Box Mie Sedaap', 35, '2018-11-29 17:16:56', '2018-11-29 17:16:56'),
-(19, 13, '90 Box Permen Sugust', 30, '2018-11-29 17:17:17', '2018-11-29 17:17:17');
+(19, 13, '90 Box Permen Sugust', 30, '2018-11-29 17:17:17', '2018-11-29 17:17:17'),
+(20, 13, '60 Box Oasis Botol', 90, '2018-11-30 08:23:43', '2018-11-30 08:23:43'),
+(21, 12, '50 Box Tissue', 10, '2018-11-30 08:24:10', '2018-11-30 08:24:10'),
+(22, 12, '30 Box Teh Pucuk', 30, '2018-11-30 08:24:54', '2018-11-30 08:24:54'),
+(23, 11, '20 Box Pilus', 10, '2018-11-30 08:25:56', '2018-11-30 08:25:56'),
+(24, 15, '2 Box Susu Bendera', 5, '2018-11-30 08:27:06', '2018-11-30 08:27:06');
 
 -- --------------------------------------------------------
 
@@ -138,7 +143,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'Romadhan', 'romadhanedy@outlook.com', NULL, '$2y$10$EbSOFK50iUBWNgMsmqroXeNqcPLRZxVno92LE32JDILOk/pV.tx2O', 'eP4MfaPUG6YgqVlWGErZogZzD0iBpgBjUNu63TIxLD3CrrJJqJbDRkrzZkco', '2018-11-29 13:25:41', '2018-11-29 13:25:41'),
+(1, 'Romadhan', 'romadhanedy@outlook.com', NULL, '$2y$10$EbSOFK50iUBWNgMsmqroXeNqcPLRZxVno92LE32JDILOk/pV.tx2O', 'aiXi8JG9DlOYG3eseLv16CU5kELrDpazb8JxmKc0x1dHxeND1EPKfuvF3EM7', '2018-11-29 13:25:41', '2018-11-29 13:25:41'),
 (2, 'Romadhan', 'romadhanedy@gmail.com', NULL, '$2y$10$wZR3jqDhnMcKv/kfD7cO2u3pSN42j/FMsKNhk5kE93ugWYgYlsgvW', 'PCrhKUDAioCV69GIrQwStXyRIwTRxIc03qK2IKVV7LXqxAiO2B1WRXASUXSW', '2018-11-29 13:48:19', '2018-11-29 13:48:19'),
 (3, 'Romadhan Edy', 'romadhan@mail.com', NULL, '$2y$10$5Xmm9iAeJXeSp42Atz.kx.zFmg02Lx1zfyWQ6XV0w3KvM3QjzTFSW', 'rg2ajCt8iVhCWcbvWpl1pfEcJltMmn4Q4r1TsENdgrfMbWO5HASJge4LWVWq', '2018-11-29 22:44:07', '2018-11-29 22:44:07');
 
@@ -186,7 +191,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `barangs`
 --
 ALTER TABLE `barangs`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 --
 -- AUTO_INCREMENT for table `gudangs`
 --
